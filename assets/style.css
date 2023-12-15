@@ -1,0 +1,34 @@
+* {
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
+section {
+    height: 2000px;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.navBar {
+    list-style: none;
+    float: right;
+
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    padding-left: 80%;
+  }
+
+.listItem {
+    display: inline-block;
+    padding: 5px;
+}
