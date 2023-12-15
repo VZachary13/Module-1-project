@@ -1,39 +1,72 @@
 * {
-    
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body {
+    background-color: #866B14;
 }
 
 header, footer{
+    color: white;
     background-color: #142f86;
+    width: 100%;
 }
 
-h1 {
-    text-align: center;
-    margin: auto;
-}
-
-section {
-    height: 2000px;
+header {
+    height: 40px;
 }
 
 footer{
-    width: 100%;
+    
     text-align: center;
     position: absolute;
     bottom: 0;
 }
+
+h1 {
+    text-align: center;
+}
+
+section {
+    color: #203475;
+    padding-top: 30px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 0;
+}
+
 .navBar {
     list-style: none;
     float: right;
 
 }
 
+section, .sticky{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .sticky {
+    top: 0;
     position: fixed;
     width: 100%;
-    padding-left: 80%;
   }
 
 .listItem {
     display: inline-block;
     padding: 5px;
+}
+
+#top {
+    background-color: #B28E1B;
+}
+
+#contact {
+    background-color: #866B14;
+}
+
+a:visited, a:active {
+    color: white;
 }

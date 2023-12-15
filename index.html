@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <header id="top">
-        <nav  class="navBar sticky">
-            <a href="#top" class="listItem">top</a>
-            <a href="#contact" class="listItem">contact</a>
-            <a href="#bottom" class="listItem">bottom</a>
+    <header class="sticky">
+        <nav  class="navBar">
+            <a href="#top" class="listItem" tabindex="0">top</a>
+            <a href="#contact" class="listItem" tabindex="0">contact</a>
+            <a href="#bottom" class="listItem" tabindex="0">bottom</a>
         </nav>
     </header>
-    <section>
+    <section id="top">
         <h2>My New Website</h2>
         <img src="./assets/image-1.png" alt="generic 'coming soon' placeholder image">
         <p>Lorem ipsum dolor</p>
     </section>
     <section id="contact">
-
+        <form>
+            <h3>Contact Me</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="userName"><br>            
+            <label for="email">Email:</label>
+            <input type="text" id="userEmail"><br>       
+            <button>Send</button>
+        </form>
     </section>
     <footer id="bottom">
         <h5>Thanks for visiting!</h5>
